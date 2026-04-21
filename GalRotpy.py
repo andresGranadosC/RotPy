@@ -423,7 +423,7 @@ aa = [a1, a2, a3, h_r, a5, a6]
 bb = [b1, b2, b3, 0, 0, 0]
 #chk = [True,True,False,False,False]
 
-
+# Tremendo codigo
 output_parameters = Table.Table([compnts,masses, aa,bb, chk], names=('component', 'mass', 'a (kpc)', 'b (kpc)', 'checked'), meta={'name': 'output_parameters'})
 
 output_parameters.write('output_parameters.txt', format='ascii.tab', overwrite=True)
